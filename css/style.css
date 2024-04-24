@@ -8,3 +8,44 @@
     max-width: 1400px;
     margin: auto;
 }
+
+.header ul{
+    display: flex;
+}
+
+.header{
+    display: flex;
+    margin-top: 1px;
+    margin-top: 30px;
+    color: black;
+    font-family: sans-serif;
+    border-bottom: 1px solid rgb(190, 189, 189);
+}
+
+.header img{
+    margin-top: -30px;
+}
+
+.header li{
+    padding-left: 30px;
+    list-style: none;
+    font-size: 15px;
+}
+
+.header li a{
+    text-decoration: none;
+    color: black;
+}
+
+.header .p2 , i{
+    padding-left: 30px;
+}
+
+.p1{
+    padding-left: 150px;
+}
+
+.header select{
+    border: none;
+    margin-bottom: 30px;
+}
