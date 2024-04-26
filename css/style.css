@@ -9,14 +9,19 @@
     margin: auto;
 }
 
+.navbar{
+    background-color: #f5f5f7;
+    height: 100%;
+    width: 100%;
+}
+
 .header ul{
     display: flex;
 }
 
 .header{
     display: flex;
-    margin-top: 1px;
-    margin-top: 30px;
+    padding-top: 30px;
     color: black;
     font-family: sans-serif;
     border-bottom: 1px solid rgb(190, 189, 189);
@@ -48,4 +53,46 @@
 .header select{
     border: none;
     margin-bottom: 30px;
+}
+
+.header2 ul li{
+    display: inline-block;
+    padding: 5px 20px;
+    font-size: 18px;
+}
+
+.header2 li a{
+    text-decoration: none;
+    color: black;
+}
+
+.header2 ul li .icon{
+    padding-left: 200px;
+}
+
+.header2 h1{
+    font-size: 30px;
+    padding-top: 250px;
+}
+
+.header2 p{
+    font-size: 20px;
+    width: 700px;
+    padding-bottom: 50px;
+}
+
+.header2 button{
+    width: 130px;
+    height: 40px;
+    margin-top: -100px;
+    margin-bottom: 100px;
+    background-color: #a30041;
+    color: white;
+    border-radius: 5px;
+    border: 1px;
+}
+
+.header2 img{
+    float: right;
+    margin-top: -316px;
 }
